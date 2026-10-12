@@ -23,7 +23,7 @@ repository               : "jlasopazos/jlasopazos.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-    avatar         : "profile.png"
+  avatar           : "profile.png"
   name             : "Jesús Laso-Pazos"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate in Economics"
