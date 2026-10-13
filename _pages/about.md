@@ -1,11 +1,12 @@
 ---
 permalink: /
-title: "Welcome to my website!"
 author_profile: true
 redirect_from:
 - /about/
 - /about.html
 ---
+
+**Welcome to my website!**
 
 I am a Ph.D. candidate in Economics at Goethe University Frankfurt, and a member of the Frankfurt Quantitative Macroeconomics Group.
 
