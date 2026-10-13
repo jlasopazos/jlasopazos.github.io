@@ -51,4 +51,16 @@
   details.abstract .abstract-box p:last-child { margin-bottom: 0; }
 </style>
 
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Jesús Laso-Pazos",
+  "alternateName": "Jesus Laso-Pazos",
+  "url": "https://jlasopazos.github.io/"
+}
+</script>
+{% endif %}
+
 <!-- end custom head snippets -->
