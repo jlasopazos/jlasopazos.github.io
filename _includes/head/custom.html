@@ -21,18 +21,24 @@
 
 <!-- Collapsible abstracts on the Research page -->
 <style>
-  details.abstract { margin: -1em 0 1.75em 0; }
+  details.abstract { margin: -0.5em 0 1.75em 0; }
   details.abstract > summary {
     display: inline-block;
     list-style: none;
     cursor: pointer;
+    padding: 0.2em 0.8em;
+    font-size: 0.85em;
     font-weight: bold;
-    color: var(--global-link-color);
-    text-decoration: underline;
+    color: var(--global-text-color);
+    background-color: var(--global-bg-color);
+    border: 1px solid rgba(127, 127, 127, 0.5);
+    border-radius: 8px;
+    user-select: none;
   }
+  details.abstract > summary:hover { background-color: rgba(127, 127, 127, 0.12); }
   details.abstract > summary::-webkit-details-marker { display: none; }
-  details.abstract > summary::after { content: "\25B8"; text-decoration: none; display: inline-block; margin-left: 0.25em; }
-  details.abstract[open] > summary::after { content: "\25BE"; }
+  details.abstract > summary::before { content: "\25B8"; display: inline-block; margin-right: 0.6em; font-size: 0.8em; }
+  details.abstract[open] > summary::before { content: "\25BE"; }
   details.abstract .abstract-box {
     margin-top: 0.6em;
     padding: 0.75em 1em;
