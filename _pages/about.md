@@ -7,8 +7,6 @@ redirect_from:
 - /about.html
 ---
 
-Welcome!
-
 I am a Ph.D. candidate in Economics at Goethe University Frankfurt, and a member of the Frankfurt Quantitative Macroeconomics Group.
 
 I previously worked in the Deutsche Bundesbank as a research assistant on the Macro-Finance research focus group.
