@@ -6,7 +6,7 @@ redirect_from:
 - /about.html
 ---
 
-**Welcome to my website!**
+<p style="font-size: 1.563em; font-weight: bold; line-height: 1.2;">Welcome to my website!</p>
 
 I am a Ph.D. candidate in Economics at Goethe University Frankfurt, and a member of the Frankfurt Quantitative Macroeconomics Group.
 
