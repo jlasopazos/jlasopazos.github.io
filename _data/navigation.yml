@@ -1,12 +1,13 @@
 # Links in the header of the website, in this order.
+# On small screens, links that don't fit move into the menu, starting from the last one.
 # To add a page: create it in _pages/ with a permalink, then add it here.
 
 main:
-  - title: "CV"
-    url: /files/Jesus_Laso_Pazos_CV.pdf
-
   - title: "Research"
     url: /research/
+
+  - title: "CV"
+    url: /files/Jesus_Laso_Pazos_CV.pdf
 
   - title: "Teaching"
     url: /teaching/
