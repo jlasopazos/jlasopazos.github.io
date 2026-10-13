@@ -3,4 +3,11 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+   <script>
+     document.querySelectorAll('a[href$=".pdf" i]').forEach(function (link) {
+       link.target = "_blank";
+       link.rel = "noopener";
+     });
+   </script>
+
 <!-- end custom footer snippets -->
